@@ -27,4 +27,31 @@ select {
 
 body {
   min-height: 100vh;
+  background-color: whitesmoke;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'DM Serif Display', serif;
+}
+/* section content width 60% */
+
+#hero{
+  border: 1px solid #000;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+button {
+  color: aqua;
+  padding: 0.5rem;
+  background: none;
+  border: 2px solid aqua;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: aqua;
+  color: white;
 }
